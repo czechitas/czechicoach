@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Czechicoach", "Czechicoach\Czechicoach.csproj", "{151193A8-25D0-4660-ABA8-E46D5C82D127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Czechicoach.Tests", "Czechicoach.Tests\Czechicoach.Tests.csproj", "{D1226D37-EC70-41F1-8A57-3D6F057F1E2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151193A8-25D0-4660-ABA8-E46D5C82D127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151193A8-25D0-4660-ABA8-E46D5C82D127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151193A8-25D0-4660-ABA8-E46D5C82D127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151193A8-25D0-4660-ABA8-E46D5C82D127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1226D37-EC70-41F1-8A57-3D6F057F1E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1226D37-EC70-41F1-8A57-3D6F057F1E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1226D37-EC70-41F1-8A57-3D6F057F1E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1226D37-EC70-41F1-8A57-3D6F057F1E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿@model IQueryable<Czechicoach.Models.Coach>
+
+@{
+    ViewBag.Title = "Coaches";
+}
+
+<div class="row index">
+    <div class="jumbotron">
+        <h1>CzechiCoach</h1>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var coach in Model)
+            {
+                <tr>
+                    <td>
+                        @coach.FirstName
+                    </td>
+                    <td>
+                        @coach.LastName
+                    </td>
+                    <td>
+                        @coach.Email
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
