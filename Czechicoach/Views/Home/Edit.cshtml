@@ -1,0 +1,17 @@
+﻿@model Czechicoach.Models.Coach
+
+
+<div class="row index">
+    <h1>Edit a coach!</h1>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.EditorFor(coach => coach.FirstName)
+    @Html.EditorFor(coach => coach.LastName)
+    @Html.EditorFor(coach => coach.Email)
+    @Html.EditorFor(coach => coach.Location)
+
+    <button type="submit">Update coach</button>
+}

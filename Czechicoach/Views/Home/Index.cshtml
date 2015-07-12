@@ -15,6 +15,7 @@
                 <th>First name</th>
                 <th>Last name</th>
                 <th>Email</th>
+                <th>Action:</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,11 @@
                     </td>
                     <td>
                         @coach.Email
+                    </td>
+                    <td>
+                        @Html.ActionLink(" ", "Destroy", new {id = coach.Id}, new { @class = "glyphicon glyphicon-trash"})
+                        |
+                        @Html.ActionLink(" ", "Edit", new { id = coach.Id }, new { @class = "glyphicon glyphicon-pencil" })
                     </td>
                 </tr>
             }
